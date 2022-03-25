@@ -37,7 +37,7 @@ public class Main {
 
         System.out.println("potencia de "+ basica.getPrimerValor()+" elevada a la"+basica.getSegundoValor()+
                 " es igual a "+ basica.elevarAPotencia());
-        basica.toString();
+        System.out.println(basica.toString());
 
 
 
@@ -57,7 +57,7 @@ public class Main {
 
         System.out.println("potencia de "+  cientifica.getPrimerValor()+" elevada a la"+cientifica.getSegundoValor()+
                 " es igual a "+ cientifica.elevarAPotencia());
-        cientifica.toString();
+        System.out.println(cientifica.toString());
 
     }
 
